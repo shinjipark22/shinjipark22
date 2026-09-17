@@ -25,7 +25,7 @@
 | 다관점 뉴스 추천 | 2026.02 | 정치·사회적 편향을 고려한 그래프 기반 뉴스 추천 시스템. 뉴스 수집 Airflow 파이프라인과 언론사 편향도 라벨링을 맡았다. | Airflow, pandas, BeautifulSoup | [GitHub](https://github.com/shinjipark22/politics_article_recommendation) |
 | 문장 윤리성 분류 | 2026.01 ~ 2026.02 | BERT 계열 모델을 파인튜닝해 비윤리적 문장을 분류했다. KcBERT 테스트 F1 0.8747. | PyTorch, transformers, datasets | [GitHub](https://github.com/shinjipark22/text_ethics_project) |
 | 일기 공감 피드백 API | 2026.02 ~ 2026.03 | 일기 텍스트에 구조화된 공감 피드백을 돌려주는 API와 도서 추천 모듈을 만들었다. | FastAPI, OpenAI API, bge-m3, kiwipiepy | [GitHub](https://github.com/shinjipark22/diary_empathy_project) |
-| XAI 수면 데이터 분석 | 2025.03 ~ 2025.05 | 수면 장애 탐지 모델을 RandomForest로 만들고 SHAP으로 상위 5개 특징만 남겼다. F1 0.913, AUC 0.963. | scikit-learn, SHAP | [GitHub](https://github.com/shinjipark22/bitamintimeseries) |
+| XAI 수면 데이터 분석 | 2025.03 ~ 2025.05 | 수면 이상 탐지를 RandomForest(F1 0.991), MiniRocket + RandomForest(F1 0.948), Hypnogram 특징 6개 초경량 모델(F1 0.917)로 만들고 SHAP으로 해석했다. | scikit-learn, MiniRocket, SHAP | [GitHub](https://github.com/shinjipark22/bitamintimeseries) |
 
 ## Contact
 
