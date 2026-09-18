@@ -17,7 +17,7 @@
 
 | 프로젝트 | 기간 | 설명 | 사용 기술 | 링크 |
 |---|---|---|---|---|
-| 멀티 에이전트 토론 시스템 | 2026.03 ~ 2026.05 | AI 에이전트들과 5단계 토론에 참여하며 문제를 이해하도록 돕는 시스템의 AI 파트를 만들고, 32B와 7B 모델을 48회 자동 토론으로 비교했다. | LangGraph, vLLM, Qwen2.5-32B, FastAPI, Streamlit | [GitHub](https://github.com/shinjipark22/SJU-Capstone-Multi-Agent-Debater-AI) |
+| 멀티 에이전트 토론 시스템 | 2026.03 ~ 2026.05 | AI 에이전트들과 5단계 토론에 참여하며 문제를 이해하도록 돕는 시스템의 AI 파트를 만들고, 실제 사용자에게 나타나는 학습효과와 상호작용 결과 등를 확인했다. | LangGraph, vLLM, Qwen2.5-32B, FastAPI, Streamlit | [GitHub](https://github.com/shinjipark22/SJU-Capstone-Multi-Agent-Debater-AI) |
 | DART 전자공시 QA Agent | 2026.07 ~ 2026.09 | 미래에셋 AI 페스티벌 2026. 70개 상장사 공시 4,204건을 BM25로 검색하고 HyperCLOVA X로 답한 뒤 검증 게이트로 수치를 대조하는 에이전트를 만들었다. | BM25, HyperCLOVA X, FastAPI, pytest | 비공개 |
 | Mind Gym | 2026.02 | 대인관계 회복 AI 롤플레잉 코치. Coach 모델을 Qwen2.5-14B LoRA로 학습하고 평가 스크립트를 만들었다. | Unsloth, LoRA, PyTorch | [GitHub](https://github.com/shinjipark22/pro-nlp-finalproject-nlp-07) |
 | 수능형 문제 풀이 모델 | 2025.12 ~ 2026.01 | DeepSeek Distill Qwen2.5 32B를 SFT로 학습하고 Wikipedia RAG와 hard voting 앙상블을 실험했다. Public Macro F1 0.8212. | Unsloth, transformers, trl, RAG | [GitHub](https://github.com/shinjipark22/pro-nlp-generationfornlp-nlp-07) |
